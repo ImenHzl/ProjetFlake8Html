@@ -2,7 +2,7 @@ from Models.Player import Player
 from Views.PlayerView import PlayerView
 
 
-class PlayerController: 
+class PlayerController:
 
     def __init__(self):
         self.player = None

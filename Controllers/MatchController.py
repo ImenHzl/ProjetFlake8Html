@@ -1,7 +1,7 @@
 from Models.Match import Match
 
 
-class MatchController: 
+class MatchController:
 
     def __init__(self):
         pass
