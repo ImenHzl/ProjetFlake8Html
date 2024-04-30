@@ -1,7 +1,7 @@
 from Models.Report import Report
 
 
-class ReportController:
+class ReportController: 
     def __init__(self):
         pass
 

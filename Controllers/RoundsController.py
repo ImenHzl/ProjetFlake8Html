@@ -7,7 +7,7 @@ from Views.RoundsView import RoundsView
 import json
 
 
-class RoundsController:
+class RoundsController: 
 
     def __init__(self):
         self.tournament = Tournament(None, None, None, None, None, None)

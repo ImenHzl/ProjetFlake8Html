@@ -4,7 +4,7 @@ from Views.TournamentView import TournamentView
 from Views.PlayerView import PlayerView
 
 
-class TournamentController:
+class TournamentController: 
     def __init__(self):
         self.tournament = Tournament(None, None, None, None, None, None)
         self.player = Player(None, None, None, None)

@@ -6,7 +6,7 @@ from Views.ReportView import ReportView
 from Views.Menu import Menu
 
 
-class MenuController:
+class MenuController: 
     def __init__(self):
         self.menu = Menu()
         self.player_controller = PlayerController()
