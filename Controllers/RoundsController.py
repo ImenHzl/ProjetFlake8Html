@@ -8,12 +8,14 @@ import json
 
 
 class RoundsController:
+
     def __init__(self):
         self.tournament = Tournament(None, None, None, None, None, None)
         self.tournamentView = TournamentView()
         self.matchController = MatchController()
         self.matchView = MatchView()
         self.roundsView = RoundsView()
+
     def shuffle_players_randomly(self, players):
         """
         Mélange la liste des joueurs de manière aléatoire.
